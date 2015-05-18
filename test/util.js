@@ -31,7 +31,7 @@ describe('## util', function() {
         bucket: 'bucket2',
         directory: 'directory2'
       }
-      let tasks = util.parseConfig(path.join(__dirname, 'fixture/config.js'))
+      let tasks = util.parseConfig(path.join(__dirname, 'fixture/task.js'))
       assert.deepEqual(tasks[0], task1)
       assert.deepEqual(tasks[1], task2)
     })

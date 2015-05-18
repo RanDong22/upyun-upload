@@ -9,6 +9,10 @@
   "scripts": {
     "test": "mocha"
   },
+  "files": [
+    "index.js",
+    "lib/"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/onebook/upyun-upload.git"
