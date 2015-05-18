@@ -1,6 +1,6 @@
 {
   "name": "upyun-upload",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "command line tool to upload files to upyun",
   "main": "index.js",
   "bin": {
