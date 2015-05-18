@@ -1,0 +1,36 @@
+{
+  "name": "upyun-upload",
+  "version": "1.0.0",
+  "description": "command line tool to upload files to upyun",
+  "main": "index.js",
+  "bin": {
+    "upyun-upload": "index.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onebook/upyun-upload.git"
+  },
+  "keywords": [
+    "upload",
+    "command",
+    "upyun",
+    "tool"
+  ],
+  "author": "haoxin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onebook/upyun-upload/issues"
+  },
+  "homepage": "https://github.com/onebook/upyun-upload#readme",
+  "dependencies": {
+    "commander": "2",
+    "fs-readdir-recursive": "0",
+    "upyun.io": "0"
+  },
+  "devDependencies": {
+    "mocha": "2"
+  }
+}
